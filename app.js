@@ -1,3 +1,7 @@
+
+ let n = 4;
+ let m = 4;
+
 function findPossibleMoves(mat, p, q)
 {
 
@@ -17,3 +21,10 @@ function findPossibleMoves(mat, p, q)
   
     return count;
 }
+
+let mat = [ [ 1, 0, 1, 0 ],
+[ 0, 1, 1, 1 ],
+[ 1, 1, 0, 1 ],
+[ 0, 1, 1, 1 ] ];
+
+console.log(findPossibleMoves(mat,2,2));
